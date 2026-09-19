@@ -7,6 +7,7 @@ import sistema_inventario.service.ProductoService;
 
 @RestController
 @RequestMapping("/api/productos")
+@CrossOrigin(origins = "https://tu-sitio.netlify.app")
 public class ProductoController {
 
     private final ProductoService service;
